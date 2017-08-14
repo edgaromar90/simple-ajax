@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header{
+    background-color: #263238;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#apiSelector{
+    color: #fff;
+}
+#apiSelector label{
+    font-size: 1.3em
+}
+form,
+#response-container{
+    margin-left: auto;
+    margin-right: auto;
+}
+#response-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.form-wrapper{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.form-radio{
+    margin: 10px;
+}

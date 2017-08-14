@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="text-center">
+            <h2 class="text-success">What are you interested in today?</h2>
+            <div id="apiSelector">
+                <div class="form-radio form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="api" id="unsplashApi" value="unsplash" checked="checked"> Images
+                  </label>
+                </div>
+                <div class="form-radio form-check form-check-inline">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="radio" name="api" id="nytimesApi" value="nytimes"> Articles
+                  </label>
+                </div>
+            </div>
+            <div class="form-wrapper">
+                <form id="search-form" class="form-inline my-2 my-lg-0">
+                  <input id="search-keyword" class="form-control form-control-lg mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-lg btn-outline-success my-2 my-sm-0" type="submit">Submit</button>
+                </form>
+            </div>
+        </header>
+
+        <div class="container-fluid">
+            <div id="response-container"></div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
