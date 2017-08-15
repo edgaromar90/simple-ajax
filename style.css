@@ -36,3 +36,12 @@ form,
 .form-radio{
     margin: 10px;
 }
+.article{
+    list-style-type: none;
+}
+.article li{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+}

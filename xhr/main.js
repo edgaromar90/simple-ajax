@@ -13,9 +13,9 @@
         const data = JSON.parse(this.responseText);
 
         if(data.response && data.response.docs && data.response.docs.length > 1){
-            htmlContent += '<ul class="list-group">'
+            htmlContent += '<ul class="row article">'
             data.response.docs.map(function(article){
-                htmlContent += `<li class="list-group-item">
+                htmlContent += `<li class="col-5">
                     <h2><a href="${article.web_url}">${article.headline.main}</a></h2>
                     <p>${article.snippet}</p>
                 </li>`;
