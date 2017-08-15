@@ -62,9 +62,9 @@
             myRequest.setRequestHeader('Authorization',`Client-ID ${myApiKey}`);
             myRequest.onload = addImage;
         }
-        /*unsplashRequest.onerror = function(error){
-            requestError(err, 'articles');
-        };*/
+        myRequest.onerror = function(error){
+            console.log('** An error occured during this transaction');
+        };
         myRequest.send();
     }
 
