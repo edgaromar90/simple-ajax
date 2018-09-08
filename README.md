@@ -7,7 +7,9 @@ This is a simple App that can search **articles** from the [New York Times API](
 _**Note:**_ Each directory has the name of the method implemented in `main.js`.
 
 ## Prerequisites
-No installation of any software is required. Just open the `index.html` file with a browser of your choice and search about anything you want.
+You will need the API key from [NYtimes](http://developer.nytimes.com/) and [Unsplash](https://unsplash.com/developers). Once you have these API keys you can go to each `main.js` file and paste the keys. I've left some comments in those files to indicate where you have to insert your API Keys.
+
+After that is done no installation of any software is required. Just open the `index.html` file with a browser of your choice and search anything you want.
 
 ## Exploring each method
 If you want to switch between the methods go inside the HTML file `index.html` and you'll see this lines of code at the bottom of the file.
